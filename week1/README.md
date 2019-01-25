@@ -27,12 +27,12 @@ With a partner construct a sound language. You will use this to communicate a dr
 
 Example image
 
-![](xx.jpg)
+![](images/xx.jpg)
 
 <br>
 another example image
 
-![](flag.jpg)
+![](images/flag.jpg)
 
 <br>
 
@@ -66,7 +66,7 @@ Additional features:
 - File > Share to get links for the code sketch or just the visual output
 - Edit > Tidy Code *(can help with debugging!)*
 
-![tidy code](tidy-code.png)
+![tidy code](images/tidy-code.png)
 
 ### Coordinate system
 
@@ -74,7 +74,7 @@ How do we tell the computer where to draw on the screen? We use a coordinate sys
 
 In middle and high school, we created graphs with a X and Y axis. The point 0,0 was in the center of the page.
 
-![coordinates](coordinates.svg)
+![coordinates](images/coordinates.svg)
 
 In p5.js, 0,0 is at the top left of our window. As we move right, X increases. As we move down, Y increases. The top left point is 0,0.
 
@@ -160,7 +160,7 @@ comment
 
 ### Console / Error Messages
 
-![error in console](error.png)
+![error in console](images/error.png)
 
 The console tells you when you made a mistake. It points out the line where it thinks the mistake was made.
 
@@ -197,5 +197,5 @@ We also use the ```print()``` command in our code to print things in the console
 ## Coding  
 Select a painting by a famous artist and recreate it in code using primitives (shapes such as point, line, rectangles, ellipses, triangles). You may use createshape. Create the work in the P5JS web editor and post a link to your code sketch on Moodle. **Remember: assignments are due by noon the day of class.**
 
-![](christinas_world.png)
+![](images/christinas_world.png)
 Example by Joe McKay

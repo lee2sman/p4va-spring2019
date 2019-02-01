@@ -4,11 +4,11 @@
 - Review of assignments
 - Presentation on artist research
 - Variables!
-- Loops
-- Conditionals
-- Events
 - Debugging with print
-
+- Conditionals
+- Loops
+- Events
+- Homework
 
 ## Variables
 
@@ -66,6 +66,16 @@ Example
 
 ```
 var myAge = 28;
+```
+
+### A quick note on Debugging using print
+
+When you get stuck while programming, you might be confused why your program is acting a certain way. Many times, it's because your variable is not set to what you think it should be set to. We can use the print command to tell us the value of a variable. You can print text and/or the value of a variable. It will appear in the console.
+
+example
+
+```
+print("mouseX is "+mouseX);
 ```
 
 ### Local vs. Global Variables
@@ -193,6 +203,29 @@ if (myName = 'Lee'){ //this line has a mistake! should be ==
 }
 ```
 
+Now that we know about conditionals, we can fix our moving ball program from earlier. Now we will add a conditional statement. **If** the ball goes off screen to the right, let's have it appear again on the left side of the canvas. How do we do this? Let's check where the ball's x position is located.
+
+```
+var ballX = 0;
+
+function setup(){
+  createCanvas(200,200);
+}
+
+function draw(){
+  ellipse(ballX,height/2,20,20);
+
+  ballX++;
+
+  if (ballX > 200){
+    ballX = 0;
+  }
+}
+```
+
+We have already learned about the builtin variables mouseX and mouseY. There are also the builtin variables ```width``` and ```height```, that are set to the width and height of the canvas once createCanvas in setup runs. In our code above we can replace the line ```if (ballX > 200){ }``` with ```if (ballX > width){ }```
+
+
 ### Else Statement
 
 Sometimes we need to be able to choose from several options. We use *else* and *else if* to create the options.
@@ -211,6 +244,21 @@ if (parkingTickets < 50){
 
 *else* is the default. If nothing else is true in the if and else if statements then the else statement will be executed.
 
+
+### Checking multiple things
+
+Sometimes it's not enough to test one thing. You can use and,  or.
+
+```&&``` = AND
+
+```||``` = OR
+
+example
+
+```
+if ((myName == 'Lee') && (myAge < 60)){
+  print("that's probably him");
+}
 
 # Looping
 
@@ -239,6 +287,19 @@ for (var i = 99; i >= 0; i--){
 }
 ```
 
+
+## When to use an if statement or for loop
+
+ **If you are testing whether something is true**
+
+When you are asking a question, use an if statement.
+
+Examples: Is my ball off screen? Is the color black?
+
+**If you need to make lots of things, use a for a loop**
+
+Examples: I need 300 circles.
+
 ## Events
 
 An event is something your web browser does or something the user of your software does which indicates interaction. Examples are pressing a mouse button, dragging the cursor across the screen or pressing a key. p5.js gives a number of built-in functions to make it easier to work with events.
@@ -260,7 +321,14 @@ function keyPressed(){
   }
 }
 ```
+
+Events happen independently of (outside) the draw loop.
+
 # Homework
+
+## Read
+
+- Getting Started with p5.js Chapters 5 and 6
 
 ## Tutorials
 
@@ -268,10 +336,25 @@ function keyPressed(){
   - [Variables](https://www.youtube.com/watch?v=RnS0YNuLfQQ&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=7)
   - [Make your own variables](https://www.youtube.com/watch?v=Bn_B3T_Vbxs&index=8&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
   - [If Statements](https://www.youtube.com/watch?v=1Osb_iGDdjk)
-  - [For Loops](https://www.youtube.com/watch?v=cnRD9o6odjk&t)
+  - We didn't get to this in class but will cover next week: [For Loops](https://www.youtube.com/watch?v=cnRD9o6odjk&t)
 
 ## Research: Web as platform for programming and art
 
 Check out this great [list](https://www.artsy.net/article/artsy-editorial-10-artistic-masterpieces-meant-experienced-online) of *10 Artistic Masterpieces Meant to Be Experienced Online*. Not all of these projects would be classified as artworks made with programming, but many are. One thing for us to consider, especially as we are learning to code, is how much we want to engage with the web. Is your work meant to be viewed in a gallery? online? outside? Where does the work lie? And based on this, what is the form your work should take? Select one of the works from the article and really experience it. What do you find meaningful in the work? How does the artwork really use the web as a platform? What can you learn from this work or any other projects here that will inform artwork you want to make?
+- Write a short response (1 - 3 paragraphs) where you examine at least one of these projects from the list, describe it and your perceptions of it, and answer these questions about your own practice.
 
-# Coding assignment
+# Bouncing Ball
+
+Take our bouncing ball starter code from [here](https://editor.p5js.org/2sman/sketches/77EtIEz_5). Duplicate the code sketch. Now add:
+
+- when the ball bounces, change the color
+- when the ball bounces, change the size of the ball
+- when the ball bounces, change the speed of the ball
+
+Hints: Think about what new variables you need. You'll need variables for the r, g and b color, for the width and height of the ball (could be the same), and the speed.
+
+Post your link to Moodle.
+
+# Your Face
+
+Finish working on your face project. Have a variety of variables for your face, for its colors, locations of its features, etc. When you click or press a button, have the face get randomized. Post a link to Moodle.

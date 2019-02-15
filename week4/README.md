@@ -4,8 +4,6 @@
 - review importing images
 - image quality
 - fonts!
-- timers with millis()
-- rotation
 - rollovers
 
 # Questions
@@ -107,6 +105,8 @@ function setup() {
 ```
 
 [link](https://editor.p5js.org/2sman/sketches/lTp1-QOME) to example code sketch in the web editor
+
+[Download](https://www.softpedia.com/get/Others/Font-Utils/ZXX.shtml) ZZX fonts
 
 **Be careful: The web editor won't dislpay the sketch properly if you have spaces in the font file's name**
 

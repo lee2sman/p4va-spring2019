@@ -8,6 +8,12 @@
 - rotation
 - rollovers
 
+# Questions
+
+How to create a randomizer that will place an image in 1 of 4 different corners?
+
+[Link](https://editor.p5js.org/2sman/sketches/vnBIjyxG9)
+
 # Resource: Bouncing things!
 
 - Need more help with the bouncing ball?

@@ -123,6 +123,9 @@ There are many places to find fonts. One of the most active ones is [DaFont](htt
 
 For our bouncing ball, we needed to detect when we were on the page or not. This same technique can be used to detect when a user has clicked on a button.
 
+Example code looking at whether the mouse's X position is over a rectangle
+Simple code!
+[link](https://editor.p5js.org/2sman/sketches/rYoBmzlXg)
 
 First we see if our mouse has rolled over the rectangle
 

@@ -6,9 +6,7 @@
 - fonts!
 - timers with millis()
 - rotation
-- arrays!
-- functions for modularity
-
+- rollovers
 
 # Resource: Bouncing things!
 
@@ -71,6 +69,7 @@ only red and blue are used but as the squares shrink they appear as purple
   - On a screen, the max resolution is 72 dpi
 - On a Mac, use Preview to open the file. File > Export and choose jpeg, png or gif and amount of compression.
 
+
 ## Fonts!
 
 We've covered how to get text on screen with the ```text()``` command, and how to set text size with ```textSize()```
@@ -103,13 +102,16 @@ function setup() {
 
 [link](https://editor.p5js.org/2sman/sketches/lTp1-QOME) to example code sketch in the web editor
 
-**Be careful that the web editor breaks if you have spaces in the font file's name**
+**Be careful: The web editor won't dislpay the sketch properly if you have spaces in the font file's name**
 
-Some things to keep in mind. Your font can be a .otf, .ttf file saved locally, or at a URL online. This is an asynchronous operation, so it's best to load the font in ```preload()``` to make sure the font is ready by the time you start drawing text to the screen.
+Some things to keep in mind. Your font can be an .otf, .ttf file saved locally, or at a URL online. This is an asynchronous operation, so it's best to load the font in ```preload()``` to make sure the font is ready by the time you start drawing text to the screen.
 
 Note that some browsers block loading fonts from another URL for security reasons.
 
 - Loadfont [reference](http://p5js.org/reference/#/p5/loadFont) page
+
+There are many places to find fonts. One of the most active ones is [DaFont](https://www.dafont.com/).
+
 
 # Rollovers (buttons)
 
@@ -149,7 +151,10 @@ Answer: place the code inside a test for whether the mouseIsPressed
 
 - more advanced [rollover button example code](https://editor.p5js.org/2sman/sketches/99erQyzKh)
 
-# Assignment: Make a drawing tool
+# Multi-week Assignment: Make a drawing tool
+
+## Part A due next week: Feb 22
+## Part B due in two weeks: Mar 1
 
 Software like Adobe Photoshop appears at first to have infinite possibilities. In actuality it is constrained and specific. You can only do what the software allows you to do.
 
@@ -165,15 +170,29 @@ Remember that someone can right click on the canvas to Save As > image. But you 
 
 - [save](http://p5js.org/reference/#/p5/save) reference page
 
-### Requirements
+### Part A - due Feb 22
+
+1. In your notebook or on the computer sketch out your software. What will things look like?
+2. What is the purpose/goal of your software?
+3. Sketch out the interface in your notebook, on the computer. Build a first version of your interface in code.
+
+### Part B - due Mar 1
+
+### Final Requirements
 
 1. A catchy title
 2. A short description
 3. Screenshots of the tool/software
 4. Documentation of how to use the software
-5. At least 3 works (saved screenshots) made with your tool
-
-
+  - optional: short video screencast of you demonstrating your software
+5. Ability to save with your software
+6. Create a folder of representative 'good' images that you'd want to demonstrate. There should be at least 3 works (saved screenshots) made with your tool.
 
 ### Tools
 a [list](https://github.com/justanothersystem/tools) of experimental web-based drawing tools
+
+## Homework
+
+- Read Chapter 6, Translate, Rotate, Scale
+- Read Chapter 7, Media
+- Part A of Art Toolbuilding

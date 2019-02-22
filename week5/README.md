@@ -178,8 +178,10 @@ Create a draft version of your Drawing Tool.
 
 I publish an ongoing updated list of art and technology events happening in the New York City area called [DART](http://dart.fyi).
 
-## Reading
-- [article](https://www.newmuseum.org/exhibitions/view/the-art-happens-here-net-art-s-archival-poetics) on The Art Happens Here
+## Reading Response
+Read two of the following:
 - [The Secret History of Women in Programming](https://www.nytimes.com/2019/02/13/magazine/women-coding-computer-programming.html)
 - [Finding Lena: The Patron Saint of JPEGs](https://www.wired.com/story/finding-lena-the-patron-saint-of-jpegs/)
 - [New Emojis are Coming: Interracial Couples, Guide Dogs, Falafel and More](https://www.nytimes.com/2019/02/06/technology/new-emoji.html)
+
+- Write a short response on the readings you choose. You do not need to summarize the readings but instead respond to anything that provoked or moved you or that you found interesting.

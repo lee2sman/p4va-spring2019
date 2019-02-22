@@ -159,24 +159,21 @@ Today we'll examine the work of:
 - [Brian Mackern](http://bri.uy/)
 - [Bunny Rogers and Filip Olszewski](https://rhizome.org/editorial/2019/feb/14/an-ice-palace-in-queens/)
 
-# Continued work on your own drawing software
-- in-class studio time
-- testing of your code by your classmates
+## Resource for art and new media events in NYC
 
-# Homework
-
-Create a draft version of your Drawing Tool.
-- see [week 4 notes](../week4/) for the list of project requirements.
-- We will be doing user testing in class.
-- Create a draft version of your tool. Submit your code and a (good) example drawing made with it that shows off the capability of your tool.
+I publish an ongoing updated list of art and technology events happening in the New York City area called [DART](http://dart.fyi).
 
 # BASIC DRAWING TOOL EXAMPLE
 
 [HERE](https://editor.p5js.org/2sman/sketches/hXhUGMhTp)
 
-## Resource
+# Homework
 
-I publish an ongoing updated list of art and technology events happening in the New York City area called [DART](http://dart.fyi).
+## Draft of Drawing Tool
+Create a draft version of your Drawing Tool.
+- see [week 4 notes](../week4/) for the list of project requirements.
+- We will be doing user testing in class.
+- Create a draft version of your tool. Submit your code and a (good) example drawing made with it that shows off the capability of your tool. (Use screenshot or save the canvas)
 
 ## Reading Response
 Read two of the following:

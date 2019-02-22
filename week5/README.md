@@ -4,9 +4,8 @@
 - HSB, the other color mode
 - functions
 - passed parameters with functions
+- translation, scale, rotation
 - arrays
-- timers with millis()
-- rotation
 
 ## HSB Color Mode
 
@@ -75,6 +74,59 @@ helloPerson('Jerome'); //prints 'Hello Jerome'
 
 Note that the quotes are necessary around the names passed in above. Without the quotes it assumes Rebecca and Jerome are variable names and will spit out an error in the console saying that Rebecca and Jerome are undefined.
 
+### In-class practice with passing parameters
+
+Create a face function that is called when you click a button. Choose a random color background, add eyes and a mouth. Each face generated should be slightly different. Pass in parameters for the x, y position, color, and anything else you'd like to add.
+
+Example code for [Don't Worry Be Happy face function](https://editor.p5js.org/2sman/sketches/9KtfA_JDg)
+
+
+### Translate
+
+Changes the grid of the canvas to a new starting x and y location.
+
+
+```translate(50,100);``` will have the new canvas start at the 50, 100 location. Any further coordinates given after this point will be in relation to this new starting point.
+
+Note that it resets at the beginning of the draw loop. You can use translate multiple times in the draw as well, and each will offset the canvas additively.
+
+example
+
+
+```
+function setup(){
+  createCanvas(400,400);
+
+  translate(50,100);
+  rect(0,0,100,50);
+}
+```
+
+### Scale
+
+Changes the scale of the canvas. In essence, it stretches it out. a ```scale(1)``` is the default. ```scale(2)``` stretches the canvas twice as big. Resets at the beginning of the draw.
+
+### Rotate
+
+Rotation of the entire canvas.
+
+Rotation is done in radians. Or can be set to use degrees by specifying ```angleMode(DEGREES)``` before, in the setup for example.
+
+To rotate an object in the center, move the canvas to that object's starting position.
+
+```
+function setup(){
+  createCanvas(400,400);
+  angleMode(DEGREES);
+  rectMode(CENTER);
+}
+function draw(){
+  translate(50,50);
+  rotate(mouseX);
+  rect(0,0,100,100);
+}
+```
+
 ## Web-Based Artists Review
 
 
@@ -85,13 +137,13 @@ There is a great [New York Times](https://www.nytimes.com/2019/01/23/arts/design
 
 Today we'll examine the work of:
 
-[Morehshin Allahyari](http://www.morehshin.com/)
-[Corey Arcangel](http://www.coryarcangel.com/)
-[Entropy8Zuper](http://entropy8zuper.org/godlove/) (Auriea Harvey and Michael Samyn)
-[Shu Lea Cheang](http://mauvaiscontact.info/)
-[Olia Lialina](http://art.teleportacia.org/)
-[Brian Mackern](http://bri.uy/)
-[Bunny Rogers and Filip Olszewski](https://rhizome.org/editorial/2019/feb/14/an-ice-palace-in-queens/)
+- [Morehshin Allahyari](http://www.morehshin.com/)
+- [Corey Arcangel](http://www.coryarcangel.com/)
+- [Entropy8Zuper](http://entropy8zuper.org/godlove/) (Auriea Harvey and Michael Samyn)
+- [Shu Lea Cheang](http://mauvaiscontact.info/)
+- [Olia Lialina](http://art.teleportacia.org/)
+- [Brian Mackern](http://bri.uy/)
+- [Bunny Rogers and Filip Olszewski](https://rhizome.org/editorial/2019/feb/14/an-ice-palace-in-queens/)
 
 # Continued work on your own drawing software
 - in-class studio time

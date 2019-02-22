@@ -127,6 +127,20 @@ function draw(){
 }
 ```
 
+### Push and Pop
+
+Push and pop are used to pop on new temporary independent coordinate systems.
+
+[code example](https://editor.p5js.org/2sman/sketches/2u1U1Gmhb)
+
+```
+ push();
+  translate(100,100);
+  rotate(mouseX);
+  rect(0,0,50,50);
+  pop();
+```
+
 ## Web-Based Artists Review
 
 
@@ -155,6 +169,10 @@ Create a draft version of your Drawing Tool.
 - see [week 4 notes](../week4/) for the list of project requirements.
 - We will be doing user testing in class.
 - Create a draft version of your tool. Submit your code and a (good) example drawing made with it that shows off the capability of your tool.
+
+# BASIC DRAWING TOOL EXAMPLE
+
+[HERE](https://editor.p5js.org/2sman/sketches/hXhUGMhTp)
 
 ## Resource
 

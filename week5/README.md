@@ -100,7 +100,7 @@ Bunny Rogers and Filip Olszewski
 # Homework
 
 Finish your Drawing Tool
-- see [../week4/] for the list of final project requirements.
+- see [week 4 notes](../week4/) for the list of final project requirements.
 
 ## Resource
 

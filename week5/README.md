@@ -168,6 +168,10 @@ Today we'll examine the work of:
 Finish your Drawing Tool
 - see [week 4 notes](../week4/) for the list of final project requirements.
 
+# BASIC DRAWING TOOL EXAMPLE
+
+[HERE](https://editor.p5js.org/2sman/sketches/hXhUGMhTp)
+
 ## Resource
 
 I publish an ongoing updated list of art and technology events happening in the New York City area called [DART](http://dart.fyi).

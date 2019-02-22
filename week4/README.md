@@ -4,9 +4,13 @@
 - review importing images
 - image quality
 - fonts!
-- timers with millis()
-- rotation
 - rollovers
+
+# Questions
+
+How to create a randomizer that will place an image in 1 of 4 different corners?
+
+[Link](https://editor.p5js.org/2sman/sketches/vnBIjyxG9)
 
 # Resource: Bouncing things!
 
@@ -102,6 +106,8 @@ function setup() {
 
 [link](https://editor.p5js.org/2sman/sketches/lTp1-QOME) to example code sketch in the web editor
 
+[Download](https://www.softpedia.com/get/Others/Font-Utils/ZXX.shtml) ZZX fonts
+
 **Be careful: The web editor won't dislpay the sketch properly if you have spaces in the font file's name**
 
 Some things to keep in mind. Your font can be an .otf, .ttf file saved locally, or at a URL online. This is an asynchronous operation, so it's best to load the font in ```preload()``` to make sure the font is ready by the time you start drawing text to the screen.
@@ -117,6 +123,9 @@ There are many places to find fonts. One of the most active ones is [DaFont](htt
 
 For our bouncing ball, we needed to detect when we were on the page or not. This same technique can be used to detect when a user has clicked on a button.
 
+Example code looking at whether the mouse's X position is over a rectangle
+Simple code!
+[link](https://editor.p5js.org/2sman/sketches/rYoBmzlXg)
 
 First we see if our mouse has rolled over the rectangle
 

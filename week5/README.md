@@ -85,13 +85,13 @@ There is a great [New York Times](https://www.nytimes.com/2019/01/23/arts/design
 
 Today we'll examine the work of:
 
-Morehshin Allahyari
-Corey Arcangel
-Entropy8Zuper (Auriea Harvey and Michael Samyn)
-Shu Lea Cheang
-Olia Lialina
-Brian Mackern
-Bunny Rogers and Filip Olszewski
+[Morehshin Allahyari](http://www.morehshin.com/)
+[Corey Arcangel](http://www.coryarcangel.com/)
+[Entropy8Zuper](http://entropy8zuper.org/godlove/) (Auriea Harvey and Michael Samyn)
+[Shu Lea Cheang](http://mauvaiscontact.info/)
+[Olia Lialina](http://art.teleportacia.org/)
+[Brian Mackern](http://bri.uy/)
+[Bunny Rogers and Filip Olszewski](https://rhizome.org/editorial/2019/feb/14/an-ice-palace-in-queens/)
 
 # Continued work on your own drawing software
 - in-class studio time
@@ -107,6 +107,7 @@ Finish your Drawing Tool
 I publish an ongoing updated list of art and technology events happening in the New York City area called [DART](http://dart.fyi).
 
 ## Reading
+- [article](https://www.newmuseum.org/exhibitions/view/the-art-happens-here-net-art-s-archival-poetics) on The Art Happens Here
 - [The Secret History of Women in Programming](https://www.nytimes.com/2019/02/13/magazine/women-coding-computer-programming.html)
 - [Finding Lena: The Patron Saint of JPEGs](https://www.wired.com/story/finding-lena-the-patron-saint-of-jpegs/)
 - [New Emojis are Coming: Interracial Couples, Guide Dogs, Falafel and More](https://www.nytimes.com/2019/02/06/technology/new-emoji.html)

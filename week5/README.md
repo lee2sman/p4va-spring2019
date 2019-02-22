@@ -151,8 +151,10 @@ Today we'll examine the work of:
 
 # Homework
 
-Finish your Drawing Tool
-- see [week 4 notes](../week4/) for the list of final project requirements.
+Create a draft version of your Drawing Tool.
+- see [week 4 notes](../week4/) for the list of project requirements.
+- We will be doing user testing in class.
+- Create a draft version of your tool. Submit your code and a (good) example drawing made with it that shows off the capability of your tool.
 
 ## Resource
 

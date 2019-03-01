@@ -47,6 +47,8 @@ var pickAStudent = int(random(students.length-1));
 
 [Example code](https://editor.p5js.org/2sman/sketches/SUUlWhE9n)
 
+[An array of button images](https://editor.p5js.org/2sman/sketches/jmO0KwSD-)
+
 # Drawing a grid with loops
 
 single line of rects with a single for loop

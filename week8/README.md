@@ -293,7 +293,7 @@ function draw(){
 In-class Challenge: add a size parameter and specify a size to the class.
 
 
-## Swarms, Intelligent Agents, Lots of Objects
+## Intelligent Drawing Agents
 
 ##### Casey Reas
 
@@ -338,6 +338,8 @@ Goal: Create a generative artwork that uses classes and objects.
 For this assignment, you are designing an autonomous drawing object. This is somewhat like a car that has driven through a puddle of paint, leaving a mark behind of its route. You must create a Class that will produce objects. The class will define an object with a shape, color, motion. Create a compelling class for objects that appear to have a mind of their own. Your class should contain enough variables so that each produced object has its own unique outcome, perhaps even making use of random, or perhaps using specified parameters, or both.
 
 With a successful Class created, create instances of objects using that class. This will be a multi-week assignment. Create at least one class of autonomous drawing objects, and make several objects of that class. Have them draw.
+
+- [Example of creating a class that uses images and rotation](https://editor.p5js.org/2sman/sketches/jvHW-ID9v)
 
 #### Part 2 - Due March 29
 

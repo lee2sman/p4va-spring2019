@@ -168,6 +168,67 @@ How does a class work?
 In our setup, we create two new bugs using the bug class. When a bug gets created, we are creating an *instance* of the bug class. When this occurs, the constructor part of the class runs first. We can think of this as the *setup* of the class. It creates the variables that will be used by the bug object. Since each object created by the class will have the same variables (with different values), we use this.x inside the class so that we know that the objects each have their own instance of the variables used. We normally set these variables in the constructor, then use them in methods below, which are functions that an object can use.
 
 
+## Creating an Array of Bug Objects
+
+We use a for loop to fill an array of Bug objects.
+
+```
+var bugs = [];
+
+function setup(){
+  createCanvas(windowWidth, windowHeight);
+  noStroke();
+  
+  for (var i = 0; i < 1000; i=i+1){
+  	bugs[i] = new Bug();  
+  }
+  
+}
+
+function draw(){
+  //background(120);
+  
+   for (var i = 0; i < 1000; i=i+1){
+  	 bugs[i].drawBug();
+     bugs[i].moveBug();
+  }
+  
+// NO LONGER NEEDED BECAUSE OF OUR FOR-LOOP
+//   bugs[0].drawBug();
+//   bugs[1].drawBug();
+//   bugs[2].drawBug();
+//   bugs[3].drawBug();
+  
+//   bugs[0].moveBug();
+//   bugs[1].moveBug();
+//   bugs[2].moveBug();
+//   bugs[3].moveBug();
+  
+  
+}
+
+
+class Bug {
+	constructor() {
+		this.c = color(random(255),random(255),random(255));
+    this.x = random(width);
+    this.y = random(height);
+	}
+
+  moveBug(){
+  	this.x = this.x+random(-1,1);
+    this.y = this.y+random(-1,1);
+  }
+  
+  drawBug(){
+	   fill(this.c);
+     ellipse(this.x,this.y,3,3);
+   }
+}
+```
+
+- [example code](https://editor.p5js.org/2sman/sketches/f8_elXfxW)
+
 ## Passing parameters to an object
 
 Often when we create an object using a class, we need to specify certain information. For example, if we are making a Human, we may want to specify that the human Jean-Michel has height 72 inches. If we make another Human named Matilda, we may want to specify that she is 67 inches in height.

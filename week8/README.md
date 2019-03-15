@@ -1,10 +1,19 @@
 # Week 8
 
 - Check-in
-- review gridded works
+- review loop works
 - Working With Sound
 - Working With Video
 - Classes and Objects
+
+
+##### Loop Works to review
+
+[Christian loops](https://editor.p5js.org/c.dibene/full/-FxP2jGJP)
+
+[Matthew loops](https://editor.p5js.org/carvosfire13/full/xj5YOYoJv)
+
+[Graham loops](https://editor.p5js.org/grachor9823@gmail.com/full/KMkqAGj6p)
 
 # Sound
 

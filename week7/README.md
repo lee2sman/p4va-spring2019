@@ -163,4 +163,14 @@ Carolee Schneeman passed away this week. She was a multidisciplinary artist whos
 
 ## Make a work using grids
 
-Using nested for loops and optionally the camera, make an interactive work that uses grids in the creation of the work
+Using nested for loops and optionally the camera, make an interactive work that uses grids in the creation of the work.
+
+- The work should be able to work fullscreen in present mode. Use
+
+```
+createCanvas(windowWidth, windowHeight);
+```
+
+- The work needs to be interactive (with keypresses or mouse action, for example)
+
+[Example code](https://editor.p5js.org/2sman/sketches/gBJmcnutD)

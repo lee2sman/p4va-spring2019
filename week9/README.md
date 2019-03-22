@@ -83,7 +83,7 @@ What parts do we need to make something change direction randomly at different t
 
 How do we create changeDirection? THis method is also in the class. There are several ways to change direction. One way is to change the speed in the x-direction and y-direction.
 
-- in-class challenge
+- [example code for changing state](https://editor.p5js.org/2sman/sketches/_QTozq-30). Each object has its own timer. When the timer is reached, we change that object's direction.
 
 # Studio Time to work on Autonomous Drawing Objects
 

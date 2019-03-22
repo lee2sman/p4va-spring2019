@@ -71,7 +71,7 @@ function draw(){
 
 Every 5000 millis, we print "RING RING RING" then add 5000 to the alarmTime. Since our draw is constantly running, in 5 seconds it will again print "RING RING RING" add more time to the alarmTime, and start checking again, etc etc
 
-
+- [basic Timer example. Ring a bell every 10 seconds](https://editor.p5js.org/2sman/sketches/Yv75_qutd).
 
 # Changing state
 

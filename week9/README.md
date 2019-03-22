@@ -22,6 +22,8 @@ var timeSinceStart = millis();
 print(timeSinceStart);
 ```
 
+- [basic use of millis](https://editor.p5js.org/2sman/sketches/3uheipDdI)
+
 #### How many milliseconds in.... 
 
 ##### an hour?

@@ -48,6 +48,13 @@ Describe how the work is organized as a complete composition:
 - What criteria can you list to help others judge this work?
 - How original is the work? Why do you feel this work is original or not original?
 
+### Looking at our generative artworks
+
+- what is the original intention of the artist? 
+ - is the artist trying to emphasize the technical or the visual, or something else?
+ - do they succeed at this goal?
+
+
 # Interactivity and Games
 
 So far we have taken an expansive view within the context of programming for visual artists. We have studied a history of computers and programming, historical precedents of fluxus, instructions art and algorithmic art. We have looked at example works by contemporary artists creating interactive works and artworks made for the web. 

@@ -14,10 +14,17 @@
 
 ### Elements of Critique for Media arts
 
+- adapted by students in Programming For Visual Artists
+
 #### Description
 - Whar are the elements of the work?
 - What are the technical qualities of the work?
 - Describe the subject matter. What is it all about? Are there recognizable images?
+
+### Questioning
+- Asking artist what questions the artist has for the audience and for the work.
+- What questions did the artist ask themselves in the construction of their work?
+- What questions do we have for the artist?
 
 #### Analysis
 

@@ -148,6 +148,8 @@ function setup() {
 }
 ```
 
+[example code](https://editor.p5js.org/2sman/sketches/-VrUvlp8N)
+
 More complex sentences can be created through combining multiple categories.
 
 Nick Montford is an artist specializing in this technique.

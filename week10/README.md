@@ -14,10 +14,17 @@
 
 ### Elements of Critique for Media arts
 
+- adapted by students in Programming For Visual Artists
+
 #### Description
 - Whar are the elements of the work?
 - What are the technical qualities of the work?
 - Describe the subject matter. What is it all about? Are there recognizable images?
+
+### Questioning
+- Asking artist what questions the artist has for the audience and for the work.
+- What questions did the artist ask themselves in the construction of their work?
+- What questions do we have for the artist?
 
 #### Analysis
 
@@ -40,6 +47,13 @@ Describe how the work is organized as a complete composition:
 - Compare it with similar works that you think are good or bad.
 - What criteria can you list to help others judge this work?
 - How original is the work? Why do you feel this work is original or not original?
+
+### Looking at our generative artworks
+
+- what is the original intention of the artist? 
+ - is the artist trying to emphasize the technical or the visual, or something else?
+ - do they succeed at this goal?
+
 
 # Interactivity and Games
 

@@ -180,8 +180,9 @@ Present-day artists and spammers are the inheritors of this history. We can use 
 - Twitter Bots
 - Markov Chains
 
+## Basic Random Sentence Generator example code
 
-## Final Project
+[code](https://editor.p5js.org/2sman/sketches/hya-Y098Z)
 
 # Homework
 

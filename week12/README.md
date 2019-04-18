@@ -180,11 +180,15 @@ Present-day artists and spammers are the inheritors of this history. We can use 
 - Twitter Bots
 - Markov Chains
 
+## Basic Random Sentence Generator example code
+
+[code](https://editor.p5js.org/2sman/sketches/hya-Y098Z)
 
 # Homework
 
 1. Make a generated postcard, card, concert flyer/poster, poem or similar. Select custom font(s) and algorithmically create a story, poem, letter, concert lineup, haiku, etc. Pay attention to typography, sizing, composition. Use a corpora source that will lead to fruitful results.
 2. Create a project pitch for your final project. This should include a 3 paragraph description. Make sure to cite 3 research references for your work, at least one of which should be an artist that inspires your project. Put this information in a slideshow format with at least 3 slides and be prepared to present a short 5 minute presentation of your idea to get feedback on.
+
 
 
 

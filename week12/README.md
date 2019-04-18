@@ -181,8 +181,6 @@ Present-day artists and spammers are the inheritors of this history. We can use 
 - Markov Chains
 
 
-## Final Project
-
 # Homework
 
 1. Make a generated postcard, card, concert flyer/poster, poem or similar. Select custom font(s) and algorithmically create a story, poem, letter, concert lineup, haiku, etc. Pay attention to typography, sizing, composition. Use a corpora source that will lead to fruitful results.

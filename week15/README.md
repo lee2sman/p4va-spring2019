@@ -4,8 +4,6 @@ Our assignments so far have been fairly restrictive. For your final project, I w
 
 Final Project and presentations/critiques due Friday May 10
 
-# Generative Processes
-
 So far in this course we have covered:
 
 * variables

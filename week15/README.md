@@ -21,7 +21,7 @@ So far in this course we have covered:
 
 Consider these elements in the creation of your own work for the final project.
   
-## Your final project should have a cover page including
+## Your final project should have a separate document with the following info
 
 1. Final Project title
 2. 1-3 sentence description

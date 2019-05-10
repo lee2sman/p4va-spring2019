@@ -1,0 +1,28 @@
+
+body{
+
+  background-color: #0f2b5b
+}
+
+
+canvas{
+position: relative;
+left: 250px;
+
+
+}
+
+#title{
+position: absolute;
+top: 25px;
+
+
+
+}
+
+#introS{
+position: absolute;
+top: 175px;
+left: 5px;
+
+}
